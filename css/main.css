@@ -80,15 +80,13 @@ li.nav .active {
 h2 {
     border-bottom: 1px groove;
     width: 30%
+    font-size: 35px;
 }
 
 h1 {
     font-size: 40px;
 }
 
-h2 {
-    font-size: 25px;
-}
 li.order {
     font-size: 30px;
 }
