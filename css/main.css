@@ -7,7 +7,7 @@
 
 div.fixed {
     position: fixed;
-    width: 320px;
+    width: 300px;
     top:0;
   	left:0;
   	bottom:0;
@@ -21,7 +21,7 @@ div.fixed {
 }
 
 div.main {
-	margin-left: 320px;
+	margin-left: 300px;
     position: relative;
     width: 80%;
     top:0;
