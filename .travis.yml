@@ -23,3 +23,5 @@ deploy:
     branch: master
   local_dir: public
   fqdn: choishingwan.github.io
+  repo: choishingwan/choishingwan.github.io
+  target_branch: master
