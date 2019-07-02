@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Sam Choi</title>
+    <link>/publication_types/1/</link>
+    <description>Recent content in 1 on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting and Controlling for Biased Sampling in Case/Control PRS Studies</title>
+      <link>/publication/conference-paper/ascertainment/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/ascertainment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

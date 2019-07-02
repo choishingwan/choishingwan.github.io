@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timothy Shin Heng Mak on Sam Choi</title>
+    <link>/authors/timothy-shin-heng-mak/</link>
+    <description>Recent content in Timothy Shin Heng Mak on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/timothy-shin-heng-mak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting and Controlling for Biased Sampling in Case/Control PRS Studies</title>
+      <link>/publication/conference-paper/ascertainment/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/ascertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A guide to performing Polygenic Risk Score analyses</title>
+      <link>/publication/preprint/prs_guide/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/preprint/prs_guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic scores via penalized regression on summary statistics</title>
+      <link>/publication/journal-article/lassosum/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/journal-article/lassosum/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

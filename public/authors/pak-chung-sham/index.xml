@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pak Chung Sham on Sam Choi</title>
+    <link>/authors/pak-chung-sham/</link>
+    <description>Recent content in Pak Chung Sham on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/pak-chung-sham/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting and Controlling for Biased Sampling in Case/Control PRS Studies</title>
+      <link>/publication/conference-paper/ascertainment/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/ascertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic scores via penalized regression on summary statistics</title>
+      <link>/publication/journal-article/lassosum/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/journal-article/lassosum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel pre-mRNA splicing of intronically integrated HBV generates oncogenic chimera in hepatocellular carcinoma</title>
+      <link>/publication/journal-article/liver_cancer/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/journal-article/liver_cancer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul O&#39;Reilly on Sam Choi</title>
+    <link>/authors/paul-oreilly/</link>
+    <description>Recent content in Paul O&#39;Reilly on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/paul-oreilly/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PRSice-2 Polygenic Risk Score software for biobank-scale data</title>
+      <link>/publication/journal-article/prsice2/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/journal-article/prsice2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting and Controlling for Biased Sampling in Case/Control PRS Studies</title>
+      <link>/publication/conference-paper/ascertainment/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/ascertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A guide to performing Polygenic Risk Score analyses</title>
+      <link>/publication/preprint/prs_guide/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/preprint/prs_guide/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
