@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sam Choi</title>
+    <link>/authors/admin/</link>
+    <description>Recent content on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PRSice-2 Polygenic Risk Score software for biobank-scale data</title>
+      <link>/publication/journal-article/prsice2/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/journal-article/prsice2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting and Controlling for Biased Sampling in Case/Control PRS Studies</title>
+      <link>/publication/conference-paper/ascertainment/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/ascertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Shing Wan Choi is a Postdoctoral Fellow working under Dr Paul F. O&amp;rsquo;Reilly at the Icahn School of Medicine at Mount Sinai. Previously working in the SGDP Centre of King&amp;rsquo;s College London, he implemented PRSice-2, a polygenic risk score software that can be applied to biobank-scale data. His research interests include developing methods to improve prediction of polygenic risk score and to incorporate functional information to risk prediction.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

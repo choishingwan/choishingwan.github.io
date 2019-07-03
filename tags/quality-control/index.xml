@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quality Control on Sam Choi</title>
+    <link>/tags/quality-control/</link>
+    <description>Recent content in Quality Control on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/quality-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Greedy Related</title>
+      <link>/publication/software/greedyrelated/</link>
+      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/software/greedyrelated/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

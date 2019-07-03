@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pak Chung Sham on Sam Choi</title>
+    <link>/authors/pak-chung-sham/</link>
+    <description>Recent content in Pak Chung Sham on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/pak-chung-sham/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detecting and Controlling for Biased Sampling in Case/Control PRS Studies</title>
+      <link>/publication/conference-paper/ascertainment/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/ascertainment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic scores for UK Biobank scale data</title>
+      <link>/publication/mak-polygenic-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mak-polygenic-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic scores via penalized regression on summary statistics</title>
+      <link>/publication/mak-polygenic-2017/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mak-polygenic-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel pre-mRNA splicing of intronically integrated HBV generates oncogenic chimera in hepatocellular carcinoma</title>
+      <link>/publication/chiu-novel-2016/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chiu-novel-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
