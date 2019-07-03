@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timothy Mak on Sam Choi</title>
+    <link>/authors/timothy-mak/</link>
+    <description>Recent content in Timothy Mak on Sam Choi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/timothy-mak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Polygenic scores for UK Biobank scale data</title>
+      <link>/publication/mak-polygenic-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mak-polygenic-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

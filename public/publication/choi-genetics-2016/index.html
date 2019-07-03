@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shing Wan Choi">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Schizophrenia is a disabling disorder affecting approximately 1% of the population  worldwide. Twins studies and family studies estimated that genetic factors contributes  to 64%-80% of the liability of schizophrenia. With the development of  Genome-Wide Association Study (GWAS), a total of 108 common genetic loci associated  with schizophrenia has been identified through the meta-analysis conducted  by the Schizophrenia Working Group of Psychiatric Genomics Consortium (PGC).  Using the summary statistic from the PGC schizophrenia GWAS, B. K. Bulik-  Sullivan et al., (2015) estimated that the common variant contributes to around  55.5% of the liability of schizophrenia using LD SCore regression (LDSC). However,  studies suggest that rare mutations, structural variance, copy number variation  (CNV) and also genetic-environment interaction are all contributing to the risk  of schizophrenia. This suggest that the estimate from B. K. Bulik-Sullivan et al.,  (2015) might be too high. An independent estimation of the Single Nucleotide Polymorphism  (SNP)-heritability of schizophrenia might provide insight as to whether  if estimates from B. K. Bulik-Sullivan et al., (2015) are inflated.  In this thesis, we developed SNP HeRitability Estimation Kit (SHREK), an  alternative algorithm for the estimation of SNP-heritability. Our simulation results  suggest that, SHREK provided a more robust estimate for oligogenic traits and for  binary traits when no confounding variables was present when compared to LDSC.  Most importantly, using the summary statistics from the schizophrenia GWAS, the  SNP-heritability of schizophrenia is estimated to be 0.185 (SD=0.00450) by SHREK and 0.198 (SD=0.0057) by LDSC, suggesting that the estimates from B. K. Bulik-  Sullivan et al., (2015) are inflated. Thus, the common variants contributes to less  than 20% of the liability of schizophrenia and it is likely for other genetic variants  such as rare mutations and epigenetic factors to contribute to the heritability of  schizophrenia.  In addition, previous studies have reported the interaction between genetic variation  and prenatal infection in the etiology of schizophrenia. There are evidences  that the effect of prenatal infection is mediated by maternal immune response, thus  it is likely for the perturbation induced by maternal immune activation (MIA) to  interact with genetic variations in the development of schizophrenia.  We therefore performed a RNA-sequencing study to investigate whether there  are any genetic overlaps between differential genes induced by MIA and genetic variations  detected by schizophrenia GWAS using the polyriboinosinic-polyribocytidilic  acid (PolyI:C) mouse model. We found that the functional gene sets associated  with schizophrenia are also enriched in MIA. In addition, when investigating the  treatment effect of n-3 polyunsaturated fatty acid (PUFA) rich diet in MIA, we  found that the gene expression of Sgk1, a gene that regulates the glutamatergic  system, is affected by the n-3 PUFA rich diet in the PolyI:C exposed mice. Sgk1 is  therefore a potential mediator of treatment effect of n-3 PUFA rich diet in the MIA  model. In conclusion, our results suggested that genes related to neural function  and calcium ion signaling, as well as glutamate-related genes such as Sgk1, are the  potential targets for future schizophrenia research.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/choi-genetics-2016/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.edb1003ed6e6506ace36eacdf2b531b3.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/choi-genetics-2016/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@shing_wan">
+  <meta property="twitter:creator" content="@shing_wan">
+  
+  <meta property="og:site_name" content="Sam Choi">
+  <meta property="og:url" content="/publication/choi-genetics-2016/">
+  <meta property="og:title" content="The genetics of schizophrenia : the contribution of common variants and genes implicated in a maternal immune activation model | Sam Choi">
+  <meta property="og:description" content="Schizophrenia is a disabling disorder affecting approximately 1% of the population  worldwide. Twins studies and family studies estimated that genetic factors contributes  to 64%-80% of the liability of schizophrenia. With the development of  Genome-Wide Association Study (GWAS), a total of 108 common genetic loci associated  with schizophrenia has been identified through the meta-analysis conducted  by the Schizophrenia Working Group of Psychiatric Genomics Consortium (PGC).  Using the summary statistic from the PGC schizophrenia GWAS, B. K. Bulik-  Sullivan et al., (2015) estimated that the common variant contributes to around  55.5% of the liability of schizophrenia using LD SCore regression (LDSC). However,  studies suggest that rare mutations, structural variance, copy number variation  (CNV) and also genetic-environment interaction are all contributing to the risk  of schizophrenia. This suggest that the estimate from B. K. Bulik-Sullivan et al.,  (2015) might be too high. An independent estimation of the Single Nucleotide Polymorphism  (SNP)-heritability of schizophrenia might provide insight as to whether  if estimates from B. K. Bulik-Sullivan et al., (2015) are inflated.  In this thesis, we developed SNP HeRitability Estimation Kit (SHREK), an  alternative algorithm for the estimation of SNP-heritability. Our simulation results  suggest that, SHREK provided a more robust estimate for oligogenic traits and for  binary traits when no confounding variables was present when compared to LDSC.  Most importantly, using the summary statistics from the schizophrenia GWAS, the  SNP-heritability of schizophrenia is estimated to be 0.185 (SD=0.00450) by SHREK and 0.198 (SD=0.0057) by LDSC, suggesting that the estimates from B. K. Bulik-  Sullivan et al., (2015) are inflated. Thus, the common variants contributes to less  than 20% of the liability of schizophrenia and it is likely for other genetic variants  such as rare mutations and epigenetic factors to contribute to the heritability of  schizophrenia.  In addition, previous studies have reported the interaction between genetic variation  and prenatal infection in the etiology of schizophrenia. There are evidences  that the effect of prenatal infection is mediated by maternal immune response, thus  it is likely for the perturbation induced by maternal immune activation (MIA) to  interact with genetic variations in the development of schizophrenia.  We therefore performed a RNA-sequencing study to investigate whether there  are any genetic overlaps between differential genes induced by MIA and genetic variations  detected by schizophrenia GWAS using the polyriboinosinic-polyribocytidilic  acid (PolyI:C) mouse model. We found that the functional gene sets associated  with schizophrenia are also enriched in MIA. In addition, when investigating the  treatment effect of n-3 polyunsaturated fatty acid (PUFA) rich diet in MIA, we  found that the gene expression of Sgk1, a gene that regulates the glutamatergic  system, is affected by the n-3 PUFA rich diet in the PolyI:C exposed mice. Sgk1 is  therefore a potential mediator of treatment effect of n-3 PUFA rich diet in the MIA  model. In conclusion, our results suggested that genes related to neural function  and calcium ion signaling, as well as glutamate-related genes such as Sgk1, are the  potential targets for future schizophrenia research."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-07-03T19:35:58&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-01-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>The genetics of schizophrenia : the contribution of common variants and genes implicated in a maternal immune activation model | Sam Choi</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Sam Choi</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">The genetics of schizophrenia : the contribution of common variants and genes implicated in a maternal immune activation model</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2016-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2016-01-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/shing-wan-choi/">Shing Wan Choi</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2016</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/publication/choi-genetics-2016/&amp;text=The%20genetics%20of%20schizophrenia%20:%20the%20contribution%20of%20common%20variants%20and%20genes%20implicated%20in%20a%20maternal%20immune%20activation%20model" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/publication/choi-genetics-2016/&amp;t=The%20genetics%20of%20schizophrenia%20:%20the%20contribution%20of%20common%20variants%20and%20genes%20implicated%20in%20a%20maternal%20immune%20activation%20model" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20genetics%20of%20schizophrenia%20:%20the%20contribution%20of%20common%20variants%20and%20genes%20implicated%20in%20a%20maternal%20immune%20activation%20model&amp;body=/publication/choi-genetics-2016/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/publication/choi-genetics-2016/&amp;title=The%20genetics%20of%20schizophrenia%20:%20the%20contribution%20of%20common%20variants%20and%20genes%20implicated%20in%20a%20maternal%20immune%20activation%20model" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=The%20genetics%20of%20schizophrenia%20:%20the%20contribution%20of%20common%20variants%20and%20genes%20implicated%20in%20a%20maternal%20immune%20activation%20model%20/publication/choi-genetics-2016/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/publication/choi-genetics-2016/&amp;title=The%20genetics%20of%20schizophrenia%20:%20the%20contribution%20of%20common%20variants%20and%20genes%20implicated%20in%20a%20maternal%20immune%20activation%20model" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="http://hub.hku.hk/handle/10722/270264" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Schizophrenia is a disabling disorder affecting approximately 1% of the population  worldwide. Twins studies and family studies estimated that genetic factors contributes  to 64%-80% of the liability of schizophrenia. With the development of  Genome-Wide Association Study (GWAS), a total of 108 common genetic loci associated  with schizophrenia has been identified through the meta-analysis conducted  by the Schizophrenia Working Group of Psychiatric Genomics Consortium (PGC).  Using the summary statistic from the PGC schizophrenia GWAS, B. K. Bulik-  Sullivan et al., (2015) estimated that the common variant contributes to around  55.5% of the liability of schizophrenia using LD SCore regression (LDSC). However,  studies suggest that rare mutations, structural variance, copy number variation  (CNV) and also genetic-environment interaction are all contributing to the risk  of schizophrenia. This suggest that the estimate from B. K. Bulik-Sullivan et al.,  (2015) might be too high. An independent estimation of the Single Nucleotide Polymorphism  (SNP)-heritability of schizophrenia might provide insight as to whether  if estimates from B. K. Bulik-Sullivan et al., (2015) are inflated.  In this thesis, we developed SNP HeRitability Estimation Kit (SHREK), an  alternative algorithm for the estimation of SNP-heritability. Our simulation results  suggest that, SHREK provided a more robust estimate for oligogenic traits and for  binary traits when no confounding variables was present when compared to LDSC.  Most importantly, using the summary statistics from the schizophrenia GWAS, the  SNP-heritability of schizophrenia is estimated to be 0.185 (SD=0.00450) by SHREK and 0.198 (SD=0.0057) by LDSC, suggesting that the estimates from B. K. Bulik-  Sullivan et al., (2015) are inflated. Thus, the common variants contributes to less  than 20% of the liability of schizophrenia and it is likely for other genetic variants  such as rare mutations and epigenetic factors to contribute to the heritability of  schizophrenia.  In addition, previous studies have reported the interaction between genetic variation  and prenatal infection in the etiology of schizophrenia. There are evidences  that the effect of prenatal infection is mediated by maternal immune response, thus  it is likely for the perturbation induced by maternal immune activation (MIA) to  interact with genetic variations in the development of schizophrenia.  We therefore performed a RNA-sequencing study to investigate whether there  are any genetic overlaps between differential genes induced by MIA and genetic variations  detected by schizophrenia GWAS using the polyriboinosinic-polyribocytidilic  acid (PolyI:C) mouse model. We found that the functional gene sets associated  with schizophrenia are also enriched in MIA. In addition, when investigating the  treatment effect of n-3 polyunsaturated fatty acid (PUFA) rich diet in MIA, we  found that the gene expression of Sgk1, a gene that regulates the glutamatergic  system, is affected by the n-3 PUFA rich diet in the PolyI:C exposed mice. Sgk1 is  therefore a potential mediator of treatment effect of n-3 PUFA rich diet in the MIA  model. In conclusion, our results suggested that genes related to neural function  and calcium ion signaling, as well as glutamate-related genes such as Sgk1, are the  potential targets for future schizophrenia research.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#7">
+              Thesis
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/shing-wan-choi/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.8cd55d839906ab9f8f6514a7081b20c1.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

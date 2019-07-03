@@ -21,69 +21,6 @@
     </item>
     
     <item>
-      <title>Quality Control</title>
-      <link>/tags/quality-control/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/quality-control/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Utility</title>
-      <link>/tags/utility/</link>
-      <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/utility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Major Depression</title>
-      <link>/tags/major-depression/</link>
-      <pubDate>Sat, 04 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/major-depression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bullying</title>
-      <link>/tags/bullying/</link>
-      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bullying/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heritability</title>
-      <link>/tags/heritability/</link>
-      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/heritability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Neuroticism</title>
-      <link>/tags/neuroticism/</link>
-      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/neuroticism/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UK Biobank</title>
-      <link>/tags/uk-biobank/</link>
-      <pubDate>Wed, 20 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/uk-biobank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ascertainment Bias</title>
       <link>/tags/ascertainment-bias/</link>
       <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
@@ -102,29 +39,389 @@
     </item>
     
     <item>
-      <title>Exome Sequencing</title>
-      <link>/tags/exome-sequencing/</link>
-      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <title>Co-occurring disorders</title>
+      <link>/tags/co-occurring-disorders/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/exome-sequencing/</guid>
+      <guid>/tags/co-occurring-disorders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comorbidity</title>
+      <link>/tags/comorbidity/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/comorbidity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetics</title>
+      <link>/tags/genetics/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/genetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pleiotropy</title>
+      <link>/tags/pleiotropy/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pleiotropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polygenic risk</title>
+      <link>/tags/polygenic-risk/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/polygenic-risk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linkage disequilibrium</title>
+      <link>/tags/linkage-disequilibrium/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linkage-disequilibrium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elastic net</title>
+      <link>/tags/elastic-net/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/elastic-net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lasso</title>
+      <link>/tags/lasso/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lasso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polygenic score</title>
+      <link>/tags/polygenic-score/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/polygenic-score/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summary statistics</title>
+      <link>/tags/summary-statistics/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/summary-statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GWAS</title>
+      <link>/tags/gwas/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gwas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qc</title>
+      <link>/tags/qc/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/qc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relatedness</title>
+      <link>/tags/relatedness/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/relatedness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Danon disease</title>
+      <link>/tags/danon-disease/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/danon-disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LAMP2 mutation</title>
+      <link>/tags/lamp2-mutation/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lamp2-mutation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xi-chromosome reactivation</title>
+      <link>/tags/xi-chromosome-reactivation/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xi-chromosome-reactivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>autophagy</title>
+      <link>/tags/autophagy/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/autophagy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patient-specific iPSCs</title>
+      <link>/tags/patient-specific-ipscs/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/patient-specific-ipscs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A2S</title>
+      <link>/tags/a2s/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/a2s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CDKs</title>
+      <link>/tags/cdks/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cdks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CHX</title>
+      <link>/tags/chx/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclin A2</title>
+      <link>/tags/cyclin-a2/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cyclin-a2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D-box</title>
+      <link>/tags/d-box/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/d-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DR1</title>
+      <link>/tags/dr1/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dr1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Repeat 1</title>
+      <link>/tags/direct-repeat-1/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/direct-repeat-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSNAP</title>
+      <link>/tags/gsnap/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gsnap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genomic Short-read Nucleotide Alignment Program</title>
+      <link>/tags/genomic-short-read-nucleotide-alignment-program/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/genomic-short-read-nucleotide-alignment-program/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HBV</title>
       <link>/tags/hbv/</link>
-      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/hbv/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>RNA Sequencing</title>
-      <link>/tags/rna-sequencing/</link>
-      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      <title>HBV integration</title>
+      <link>/tags/hbv-integration/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rna-sequencing/</guid>
+      <guid>/tags/hbv-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HBV-CCNA2 chimeric transcript</title>
+      <link>/tags/hbv-ccna2-chimeric-transcript/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hbv-ccna2-chimeric-transcript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HBsAg</title>
+      <link>/tags/hbsag/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hbsag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HCC</title>
+      <link>/tags/hcc/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hcc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NT-L</title>
+      <link>/tags/nt-l/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nt-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Splicing</title>
+      <link>/tags/splicing/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/splicing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cyclin-dependent kinases</title>
+      <link>/tags/cyclin-dependent-kinases/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cyclin-dependent-kinases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cycloheximide</title>
+      <link>/tags/cycloheximide/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cycloheximide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>destruction box</title>
+      <link>/tags/destruction-box/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/destruction-box/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hepatitis B surface antigen</title>
+      <link>/tags/hepatitis-b-surface-antigen/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hepatitis-b-surface-antigen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hepatitis B virus</title>
+      <link>/tags/hepatitis-b-virus/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hepatitis-b-virus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hepatocellular carcinoma</title>
+      <link>/tags/hepatocellular-carcinoma/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hepatocellular-carcinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-tumorous liver</title>
+      <link>/tags/non-tumorous-liver/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/non-tumorous-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>novel tandem duplication detection</title>
+      <link>/tags/novel-tandem-duplication-detection/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/novel-tandem-duplication-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>structural variations</title>
+      <link>/tags/structural-variations/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/structural-variations/</guid>
       <description></description>
     </item>
     
