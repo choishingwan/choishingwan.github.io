@@ -35,5 +35,22 @@ date_format = "Jan 2006"
   date_start = "2016-06-26"
   date_end = "2019-03-31"
   description = ""
+  
+[[experience]]
+  title = "Co-Directory of SGDP Summery School"
+  company = "SGDP, King's College London"
+  company_url = ""
+  location = "London"
+  date_start = "2018-06-26"
+  date_end = "2018-06-26"
+  description = ""
+[[experience]]
+  title = "Co-Directory of SGDP Summery School"
+  company = "SGDP, King's College London"
+  company_url = ""
+  location = "London"
+  date_start = "2019-06-26"
+  date_end = "2019-06-26"
+  description = ""
 
 +++
