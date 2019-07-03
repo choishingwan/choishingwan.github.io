@@ -37,4 +37,4 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Shing Wan Choi is a Postdoctoral Fellow working under Dr Paul F. O'Reilly at the Icahn School of Medicine at Mount Sinai. Previously working in the SGDP Centre of King's College London, he implemented PRSice-2, a polygenic risk score software designed for biobank data. His research interests include developing methods to improve prediction of polygenic risk score and to incorporate functional information to risk prediction. 
+Shing Wan Choi is a Postdoctoral Fellow working under Dr Paul F. O'Reilly at the Icahn School of Medicine at Mount Sinai. Previously working in the SGDP Centre of King's College London, he implemented PRSice-2, a polygenic risk score software that can be applied to biobank-scale data. His research interests include developing methods to improve prediction of polygenic risk score and to incorporate functional information to risk prediction. 
