@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I am a Postdoctoral Fellow working under Dr Paul F. O'Reilly at the Department of Genetics and Genomics, Icahn School of Medicine at Mount Sinai. 
+bio: Mgr Statistical Genetics in Regeneron Genetics Center. 
 education:
   courses:
   - course: PhD in Bioinformatics
@@ -16,9 +16,9 @@ interests:
 - Functional analysis of Genomic data
 name: Shing Wan Choi
 organizations:
-- name: Icahn School of Medicine, Mount Sinai
+- name: Regeneron Genetics Center
   url: ""
-role: Postdoctoral Fellow
+role: Mgr Statistical Genetics
 social:
 - icon: envelope
   icon_pack: fas
@@ -32,9 +32,13 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/choishingwan
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/choishingwan
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
-Shing Wan Choi is a Postdoctoral Fellow working under Dr Paul F. O'Reilly at the Icahn School of Medicine at Mount Sinai. Previously working in the SGDP Centre of King's College London, he implemented PRSice-2, a polygenic risk score software that can be applied to biobank-scale data. His research interests include developing methods to improve prediction of polygenic risk score and to incorporate functional information to risk prediction. 
+Shing Wan Choi is a Mgr Statistical Genetics working under Dr Charles Paulding at the Regeneron Genetics Center, with prior experience at the Icahn School of Medicine and King's College London. 
+He specializes in developing advanced polygenic score software, including PRSice-2 and EraSOR. His research focuses on enhancing polygenic risk score predictions and incorporating functional information for improved risk assessment.

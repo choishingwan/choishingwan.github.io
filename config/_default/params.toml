@@ -32,7 +32,7 @@ highlight = true
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
-math = false
+math = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -52,7 +52,7 @@ time_format = "15:04"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "choishingwan@gmail.com"
 phone = ""
-address = "Icahn School of Medicine at Mount Sinai"
+address = "Regeneron Genetics Center"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
