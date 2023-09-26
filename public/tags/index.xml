@@ -84,15 +84,6 @@
     </item>
     
     <item>
-      <title>Linkage disequilibrium</title>
-      <link>/tags/linkage-disequilibrium/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/linkage-disequilibrium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>elastic net</title>
       <link>/tags/elastic-net/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
@@ -107,6 +98,15 @@
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/lasso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linkage disequilibrium</title>
+      <link>/tags/linkage-disequilibrium/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linkage-disequilibrium/</guid>
       <description></description>
     </item>
     
@@ -156,6 +156,15 @@
     </item>
     
     <item>
+      <title>autophagy</title>
+      <link>/tags/autophagy/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/autophagy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Danon disease</title>
       <link>/tags/danon-disease/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
@@ -174,29 +183,20 @@
     </item>
     
     <item>
-      <title>Xi-chromosome reactivation</title>
-      <link>/tags/xi-chromosome-reactivation/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/xi-chromosome-reactivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>autophagy</title>
-      <link>/tags/autophagy/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/autophagy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>patient-specific iPSCs</title>
       <link>/tags/patient-specific-ipscs/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/patient-specific-ipscs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xi-chromosome reactivation</title>
+      <link>/tags/xi-chromosome-reactivation/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xi-chromosome-reactivation/</guid>
       <description></description>
     </item>
     
@@ -237,6 +237,24 @@
     </item>
     
     <item>
+      <title>cyclin-dependent kinases</title>
+      <link>/tags/cyclin-dependent-kinases/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cyclin-dependent-kinases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cycloheximide</title>
+      <link>/tags/cycloheximide/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cycloheximide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>D-box</title>
       <link>/tags/d-box/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
@@ -246,11 +264,11 @@
     </item>
     
     <item>
-      <title>DR1</title>
-      <link>/tags/dr1/</link>
+      <title>destruction box</title>
+      <link>/tags/destruction-box/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dr1/</guid>
+      <guid>/tags/destruction-box/</guid>
       <description></description>
     </item>
     
@@ -264,11 +282,11 @@
     </item>
     
     <item>
-      <title>GSNAP</title>
-      <link>/tags/gsnap/</link>
+      <title>DR1</title>
+      <link>/tags/dr1/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gsnap/</guid>
+      <guid>/tags/dr1/</guid>
       <description></description>
     </item>
     
@@ -278,6 +296,24 @@
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/genomic-short-read-nucleotide-alignment-program/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GSNAP</title>
+      <link>/tags/gsnap/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gsnap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HBsAg</title>
+      <link>/tags/hbsag/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hbsag/</guid>
       <description></description>
     </item>
     
@@ -309,65 +345,11 @@
     </item>
     
     <item>
-      <title>HBsAg</title>
-      <link>/tags/hbsag/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hbsag/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>HCC</title>
       <link>/tags/hcc/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/hcc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NT-L</title>
-      <link>/tags/nt-l/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/nt-l/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Splicing</title>
-      <link>/tags/splicing/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/splicing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cyclin-dependent kinases</title>
-      <link>/tags/cyclin-dependent-kinases/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cyclin-dependent-kinases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cycloheximide</title>
-      <link>/tags/cycloheximide/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/cycloheximide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>destruction box</title>
-      <link>/tags/destruction-box/</link>
-      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/destruction-box/</guid>
       <description></description>
     </item>
     
@@ -390,7 +372,7 @@
     </item>
     
     <item>
-      <title>hepatocellular carcinoma</title>
+      <title>Hepatocellular carcinoma</title>
       <link>/tags/hepatocellular-carcinoma/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
@@ -404,6 +386,24 @@
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/non-tumorous-liver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NT-L</title>
+      <link>/tags/nt-l/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/nt-l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Splicing</title>
+      <link>/tags/splicing/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/splicing/</guid>
       <description></description>
     </item>
     
