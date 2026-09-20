@@ -28,7 +28,8 @@ bibtex_2academic <- function(bibfile,
         }
         # Use the bibtex citation key as the slug (matches existing
         # content/publication/<slug> folders, e.g. choi_guide_2018 -> choi-guide-2018)
-        entryname <- gsub("_", "-", names(mypubs)[i])
+        entryname <- gsub("_", "-", names(mypubs)[i]) |>
+            gsub(pattern = "[^a-zA-Z0-9-]", replacement = "")
         filename <- paste0("index.md")
         if (!file.exists(file.path(outfold, entryname)) |
             overwrite) {
