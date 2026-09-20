@@ -26,20 +26,14 @@ bibtex_2academic <- function(bibfile,
         } else {
             x$date <- "1989-01"
         }
-        entryname <- paste(
-            x$date,
-            x$title %>%
-                str_replace_all(fixed(" "), "_") %>%
-                str_remove_all(fixed(":")) %>%
-                str_remove_all(fixed(",")) %>%
-                str_sub(1, 20),
-            sep = "_"
-        )
+        # Use the bibtex citation key as the slug (matches existing
+        # content/publication/<slug> folders, e.g. choi_guide_2018 -> choi-guide-2018)
+        entryname <- gsub("_", "-", names(mypubs)[i])
         filename <- paste0("index.md")
         if (!file.exists(file.path(outfold, entryname)) |
             overwrite) {
             dir.create(file.path(outfold, entryname), showWarnings = FALSE)
-            WriteBib(x, file = file.path(file.path(outfold, entryname), "cite.bib"))
+            WriteBib(x, file = file.path(file.path(outfold, entryname), paste0(entryname, ".bib")))
             fileConn <-
                 file.path(file.path(outfold, entryname), filename)
             write("---", fileConn)
@@ -161,3 +155,10 @@ bibtex_2academic <- function(bibfile,
     }
 }
 
+# Existing folders are left untouched (overwrite = FALSE)
+bibtex_2academic(
+    bibfile = "publications.bib",
+    outfold = "content/publication",
+    abstract = TRUE,
+    overwrite = FALSE
+)
