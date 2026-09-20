@@ -21,7 +21,6 @@ name: Shing Wan Choi
 organizations:
 - name: Regeneron Genetics Center
   url: ""
-role: Mgr Statistical Genetics
 social:
 - icon: envelope
   icon_pack: fas
