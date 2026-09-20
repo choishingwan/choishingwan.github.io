@@ -6,7 +6,7 @@
 {{ $album_path := "" }}
 {{ $resource_page := "" }}
 {{ if eq .Page.Parent.Type "widget_page" }}
-  {{ $album_path = printf "%s/%s/*" (path.Base (path.Split .Page.Path).Dir) $album }}
+  {{ $album_path = printf "%s/%s/*" (path.Base .Page.Path) $album }}
   {{ $resource_page = $.Page.Parent }}
 {{ else }}
   {{ $album_path = printf "%s/*" $album }}

@@ -13,7 +13,7 @@
   {{ $superuser_role := "" }}
   {{ range first 1 (where (where site.Pages "Section" "authors") "Params.superuser" true) }}
     {{ $superuser_name = .Params.name }}
-    {{ $superuser_username = path.Base (path.Split .Path).Dir }}
+    {{ $superuser_username = path.Base .Path }}
     {{ $superuser_role = .Params.role }}
   {{ end }}
   {{ $scr.Set "superuser_username" $superuser_username }}{{/* For access from page_author.html. */}}
@@ -116,11 +116,11 @@
     <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
   {{ end }}
 
-  {{ if not site.IsServer }}
-  {{ if site.GoogleAnalytics }}
+  {{ if not hugo.IsServer }}
+  {{ if site.Config.Services.GoogleAnalytics.ID }}
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ site.GoogleAnalytics }}', 'auto');
+      ga('create', '{{ site.Config.Services.GoogleAnalytics.ID }}', 'auto');
       {{ if site.Params.privacy_pack }}ga('set', 'anonymizeIp', true);{{ end }}
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
