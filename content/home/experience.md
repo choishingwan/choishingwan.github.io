@@ -17,13 +17,27 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+
+[[experience]]
+  title = "Sr Mgr Statistical Genetics"
+  company = "Regeneron Genetics Center"
+  company_url = ""
+  location = "New York"
+  date_start = "2024-01-01"
+  date_end = ""
+  description = """
+    Leading genetic and proteomic analyses supporting clinical development across obesity, ophthalmology, cardiovascular, and immunology programs (10 clinical trials). Building scalable, reproducible analytical pipelines on AWS.
+  """
+  
+
 [[experience]]
   title = "Mgr Statistical Genetics"
   company = "Regeneron Genetics Center"
   company_url = ""
   location = "New York"
   date_start = "2022-03-14"
-  date_end = ""
+  date_end = "2023-12-31"
   description = """
   """
   
@@ -64,6 +78,7 @@ date_format = "Jan 2006"
   date_start = "2018-06-26"
   date_end = "2018-06-26"
   description = ""
+
 [[experience]]
   title = "Co-Directory of SGDP Summery School"
   company = "SGDP, King's College London"
