@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: Mgr Statistical Genetics in Regeneron Genetics Center. 
+bio: Statistical Geneticist, Pharmacogenomics and Protemoics at Regeneron Genetics Center
 education:
   courses:
   - course: PhD in Bioinformatics
@@ -12,6 +12,8 @@ education:
     year: 2012
 email: ""
 interests:
+- Pharmacogenomics
+- Proteomics
 - Polygenic Risk Score
 - Functional analysis of Genomic data
 name: Shing Wan Choi
@@ -23,6 +25,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/shing-wan-choi-13614aa5/
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/shing_wan
@@ -40,5 +45,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
-Shing Wan Choi is a Mgr Statistical Genetics working under Dr Charles Paulding at the Regeneron Genetics Center, with prior experience at the Icahn School of Medicine and King's College London. 
-He specializes in developing advanced polygenic score software, including PRSice-2 and EraSOR. His research focuses on enhancing polygenic risk score predictions and incorporating functional information for improved risk assessment.
+
+Shing Wan Choi is a statistical geneticist and pharmacogenomics leader at the Regeneron Genetics Center, where he leads genetic and proteomic analyses supporting clinical development. His work spans obesity, ophthalmology, cardiovascular, and immunology programs across 10 clinical trials, translating genetic and molecular evidence into analyses that inform development and follow-up study decisions. He also builds scalable, reproducible analytical pipelines on AWS to support these analyses across programs.
+
+His background is in polygenic score methodology and statistical genetics. He created PRSice-2 and PRSet (2,000+ citations), was first author of the field-standard Nature Protocols PRS guide (2,500+ citations), and was second author of BridgePRS (Nature Genetics). These contributions are widely used across human genetics and biomedical research.
+
+He completed his PhD in statistical genetics with Pak Sham at the University of Hong Kong and subsequently joined the O'Reilly lab at King's College London.
