@@ -29,10 +29,6 @@ subtitle = ""
     name = "Polygenic Risk Score"
     tag = "Polygenic Risk Score"
 
-  [[content.filter_button]]
-    name = "Proteomics"
-    tag = "Proteomics"
-
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
